@@ -101,7 +101,7 @@
     
     form {
         margin-top: 20px;
-        width: 100%;
+        width: 80%;
         }
     
     label {
@@ -110,6 +110,7 @@
         font-weight: bolder;
         margin-bottom: 20px;
         color: antiquewhite;
+        align-items: center;
         }
     
     input[type="text"],
@@ -140,6 +141,7 @@
         height: 750px;
         border-radius: 15px;
        background-color: lightpink;
+       
        }
 
     .card-img-top {
