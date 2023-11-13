@@ -146,11 +146,12 @@
         }
     
     .precios {
-        height: 750px;
-        border-radius: 15px;
-       background-color: lightpink;
+        background-color: lightpink;
+        flex-wrap: wrap;
+        width: 90%;
+        height: 90%;
        
-       }
+        }
 
     .card-img-top {
         width: 100%;
@@ -173,7 +174,7 @@
     
     /* media query */
 
-    @media screen and (min-width: 480px) {
+    /* @media screen and (min-width: 480px) {
         body {
           background-color: lightgreen;
         }
@@ -330,20 +331,3 @@
             color: rgb(127, 187, 255);
             background-color: #fafafa;
         }
-        
-            /* carousel */
-        .carousel-inner {
-            height: 400px;
-            min-width: 350px;
-            margin: 50px;
-            padding: 30px ;
-        }
-    
-        div {
-           
-            min-width: 350px;
-        }
-        
-
-      }
-
